@@ -5,9 +5,6 @@ export default defineConfig({
   test: {
     alias: {
       '@': path.join(__dirname, './src'),
-      '@lobehub/chat-plugin-sdk': path.join(__dirname, './src'),
-      '@lobehub/chat-plugin-sdk/client': path.join(__dirname, './src/client'),
-      '@lobehub/chat-plugin-sdk/openapi': path.join(__dirname, './src/openapi'),
     },
     coverage: {
       include: ['src'],
