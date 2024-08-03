@@ -1,5 +1,5 @@
 ---
-title: 首页
+title: Home
 hero:
   title: Lobe Vidol <b>PlayGround</b>
   description: The playground for experimental demos
@@ -8,6 +8,6 @@ hero:
       openExternal: true
       link: https://github.com/lobehub/lobe-vidol-playground
     - text: Get Started
-      link: /quick-start/intro
+      link: /components
       type: primary
 ---

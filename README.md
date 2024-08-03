@@ -6,9 +6,9 @@
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
 <img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/puzzle-piece.webp">
 
-<h1>Chat Plugin SDK</h1>
+<h1>LobeVidol PlayGround</h1>
 
-SDK for LobeChat funciton calling plugins
+The playground for experimental demos
 
 [![][🤯-🧩-lobehub-shield]][🤯-🧩-lobehub-link]
 [![][npm-release-shield]][npm-release-link]
@@ -34,8 +34,6 @@ SDK for LobeChat funciton calling plugins
 
 #### TOC
 
-- [🤯 Usage](#-usage)
-- [📦 Plugin Ecosystem](#-plugin-ecosystem)
 - [⌨️ Local Development](#️-local-development)
 - [🤝 Contributing](#-contributing)
 - [🔗 Links](#-links)
@@ -43,34 +41,6 @@ SDK for LobeChat funciton calling plugins
 ####
 
 </details>
-
-## 🤯 Usage
-
-The LobeChat Plugin SDK assists you in creating exceptional chat plugins for Lobe Chat.
-
-> \[!Important]
-> [📘 SDK Document](https://chat-plugin-sdk.lobehub.com) - <https://chat-plugin-sdk.lobehub.com>
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
-## 📦 Plugin Ecosystem
-
-Plugins provide a means to extend the Function Calling capabilities of LobeChat. They can be used to introduce new function calls and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide](https://github.com/lobehub/lobe-chat/wiki/Plugin-Development) in the Wiki.
-
-- [lobe-chat-plugins][lobe-chat-plugins]: This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for LobeChat to the user.
-- [chat-plugin-template][chat-plugin-template]: This is the plugin template for LobeChat plugin development.
-- [@lobehub/chat-plugin-sdk][chat-plugin-sdk]: The LobeChat Plugin SDK assists you in creating exceptional chat plugins for Lobe Chat.
-- [@lobehub/chat-plugins-gateway][chat-plugins-gateway]: The LobeChat Plugins Gateway is a backend service that provides a gateway for LobeChat plugins. We deploy this service using Vercel. The primary API POST /api/v1/runner is deployed as an Edge Function.
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
 
 ## ⌨️ Local Development
 
@@ -83,8 +53,8 @@ Or clone it for local development:
 [![][bun-shield]][bun-link]
 
 ```bash
-$ git clone https://github.com/lobehub/chat-plugin-sdk.git
-$ cd chat-plugin-sdk
+$ git clone https://github.com/lobehub/lobe-vidol-playground.git
+$ cd lobe-vidol-playground
 $ bun install
 $ bun dev
 ```
@@ -134,32 +104,28 @@ This project is [MIT](./LICENSE) licensed.
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-black?style=flat-square
 [bun-link]: https://bun.sh
 [bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
-[chat-plugin-sdk]: https://github.com/lobehub/chat-plugin-sdk
-[chat-plugin-template]: https://github.com/lobehub/chat-plugin-
-[chat-plugins-gateway]: https://github.com/lobehub/chat-plugins-gateway
-[github-action-release-link]: https://github.com/lobehub/chat-plugin-sdk/actions/workflows/release.yml
-[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-sdk/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-action-test-link]: https://github.com/lobehub/chat-plugin-sdk/actions/workflows/test.yml
-[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-sdk/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-codespace-link]: https://codespaces.new/lobehub/chat-plugin-sdk
+[github-action-release-link]: https://github.com/lobehub/lobe-vidol-playground/actions/workflows/release.yml
+[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-vidol-playground/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-action-test-link]: https://github.com/lobehub/lobe-vidol-playground/actions/workflows/test.yml
+[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-vidol-playground/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-codespace-link]: https://codespaces.new/lobehub/lobe-vidol-playground
 [github-codespace-shield]: https://github.com/codespaces/badge.svg
-[github-contrib-link]: https://github.com/lobehub/chat-plugin-sdk/graphs/contributors
-[github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Fchat-plugin-sdk
-[github-contributors-link]: https://github.com/lobehub/chat-plugin-sdk/graphs/contributors
-[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/chat-plugin-sdk?color=c4f042&labelColor=black&style=flat-square
-[github-forks-link]: https://github.com/lobehub/chat-plugin-sdk/network/members
-[github-forks-shield]: https://img.shields.io/github/forks/lobehub/chat-plugin-sdk?color=8ae8ff&labelColor=black&style=flat-square
-[github-issues-link]: https://github.com/lobehub/chat-plugin-sdk/issues
-[github-issues-shield]: https://img.shields.io/github/issues/lobehub/chat-plugin-sdk?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/lobehub/chat-plugin-sdk/blob/main/LICENSE
-[github-license-shield]: https://img.shields.io/github/license/lobehub/chat-plugin-sdk?color=white&labelColor=black&style=flat-square
-[github-releasedate-link]: https://github.com/lobehub/chat-plugin-sdk/releases
-[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/chat-plugin-sdk?labelColor=black&style=flat-square
-[github-stars-link]: https://github.com/lobehub/chat-plugin-sdk/network/stargazers
-[github-stars-shield]: https://img.shields.io/github/stars/lobehub/chat-plugin-sdk?color=ffcb47&labelColor=black&style=flat-square
-[lobe-chat-plugins]: https://github.com/lobehub/lobe-chat-plugins
-[npm-release-link]: https://www.npmjs.com/package/@lobehub/chat-plugin-sdk
-[npm-release-shield]: https://img.shields.io/npm/v/@lobehub/chat-plugin-sdk?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
-[pr-welcome-link]: https://github.com/lobehub/chat-plugin-sdk/pulls
+[github-contrib-link]: https://github.com/lobehub/lobe-vidol-playground/graphs/contributors
+[github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Flobe-vidol-playground
+[github-contributors-link]: https://github.com/lobehub/lobe-vidol-playground/graphs/contributors
+[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/lobe-vidol-playground?color=c4f042&labelColor=black&style=flat-square
+[github-forks-link]: https://github.com/lobehub/lobe-vidol-playground/network/members
+[github-forks-shield]: https://img.shields.io/github/forks/lobehub/lobe-vidol-playground?color=8ae8ff&labelColor=black&style=flat-square
+[github-issues-link]: https://github.com/lobehub/lobe-vidol-playground/issues
+[github-issues-shield]: https://img.shields.io/github/issues/lobehub/lobe-vidol-playground?color=ff80eb&labelColor=black&style=flat-square
+[github-license-link]: https://github.com/lobehub/lobe-vidol-playground/blob/main/LICENSE
+[github-license-shield]: https://img.shields.io/github/license/lobehub/lobe-vidol-playground?color=white&labelColor=black&style=flat-square
+[github-releasedate-link]: https://github.com/lobehub/lobe-vidol-playground/releases
+[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/lobe-vidol-playground?labelColor=black&style=flat-square
+[github-stars-link]: https://github.com/lobehub/lobe-vidol-playground/network/stargazers
+[github-stars-shield]: https://img.shields.io/github/stars/lobehub/lobe-vidol-playground?color=ffcb47&labelColor=black&style=flat-square
+[npm-release-link]: https://www.npmjs.com/package/@lobehub/lobe-vidol-playground
+[npm-release-shield]: https://img.shields.io/npm/v/@lobehub/lobe-vidol-playground?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
+[pr-welcome-link]: https://github.com/lobehub/lobe-vidol-playground/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/%F0%9F%A4%AF%20PR%20WELCOME-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-link]: https://github.com/lobehub
