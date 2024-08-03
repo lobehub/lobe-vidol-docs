@@ -27,7 +27,7 @@
     "es"
   ],
   "scripts": {
-    "build": "father build",
+    "build": "father build && npm run docs:build",
     "build:watch": "father dev",
     "ci": "npm run lint && npm run type-check && npm run doctor",
     "docs:build": "dumi build",
