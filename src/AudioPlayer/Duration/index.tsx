@@ -20,7 +20,7 @@ const Duration = (props: DurationProps) => {
 
   return (
     <div className={styles.duration}>
-      <span className={styles.counter} style={{ marginRight: 8 }}>
+      <span className={styles.counter} style={{ marginRight: 12 }}>
         {formatDurationDisplay(currentProgress)}
       </span>
       <ConfigProvider
