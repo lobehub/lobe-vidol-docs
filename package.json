@@ -1,22 +1,20 @@
 {
-  "name": "@lobehub/chat-plugin-sdk",
-  "version": "1.32.4",
-  "description": "Lobe Chat Plugin SDK, help you to build an amazing chat plugin for Lobe Chat",
+  "name": "@lobehub/lobe-vidol-playground",
+  "version": "0.0.1",
+  "description": "Lobe Vidol PlayGround - The playground for experimental demos",
   "keywords": [
     "lobehub",
-    "sdk",
-    "chatgpt",
-    "openai",
-    "plugin",
-    "chat-plugin"
+    "vidol",
+    "playground",
+    "demos"
   ],
-  "homepage": "https://github.com/lobehub/chat-plugin-sdk",
+  "homepage": "https://github.com/lobehub/lobe-vidol-playground",
   "bugs": {
-    "url": "https://github.com/lobehub/chat-plugin-sdk/issues/new"
+    "url": "https://github.com/lobehub/lobe-vidol-playground/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lobehub/chat-plugin-sdk.git"
+    "url": "https://github.com/lobehub/lobe-vidol-playground.git"
   },
   "license": "MIT",
   "author": "LobeHub <i@lobehub.com>",
@@ -26,12 +24,7 @@
   "types": "./lib/index.d.ts",
   "files": [
     "lib",
-    "es",
-    "client.d.ts",
-    "client.js",
-    "openapi.d.ts",
-    "openapi.js",
-    "schema.json"
+    "es"
   ],
   "scripts": {
     "build": "father build && npm run build:entry && npm run build:schema",
@@ -98,7 +91,7 @@
     "babel-plugin-antd-style": "^1.0.4",
     "clean-pkg-json": "^1",
     "commitlint": "^18",
-    "dumi": "^2",
+    "dumi": "~2.2",
     "dumi-theme-lobehub": "latest",
     "eslint": "^8",
     "father": "^4",

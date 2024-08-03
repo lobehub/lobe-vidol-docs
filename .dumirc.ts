@@ -6,7 +6,7 @@ const isWin = process.platform === 'win32';
 
 const themeConfig = {
   footer: 'Made with 🤯 by LobeHub',
-  name: 'Lobe Chat Plugin SDK',
+  name: 'LobeVidol PlayGround',
   socialLinks: {
     discord: 'https://discord.gg/AYFPHvv2jT',
     github: homepage,
@@ -33,5 +33,5 @@ export default defineConfig({
   }`,
   ],
   themeConfig,
-  title: 'Lobe Chat Plugin SDK',
+  title: 'LobeVidol PlayGround',
 });
