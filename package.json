@@ -91,7 +91,7 @@
     "react": "^18",
     "react-dom": "^18",
     "swagger-client": "^3.24.6",
-    "three": "0.164.0",
+    "three": "0.164.1",
     "zod": "^3.22.4",
     "zustand": "^4.4.1"
   },
@@ -104,7 +104,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@types/three": "0.164.0",
+    "@types/three": "0.164.1",
     "@vitest/coverage-v8": "^1",
     "babel-plugin-antd-style": "^1.0.4",
     "clean-pkg-json": "^1",
